@@ -1,9 +1,8 @@
 fn main() {
-    let x = 5;
+    const MAX_POINTS: u32 = 100_000;
 
-    let x = x + 1;
+    let spaces = " ";
+    let spaces = spaces.len();
 
-    let x = x * 2;
-
-    println!("The value of x is: {}", x);
+    println!("{} {}", MAX_POINTS, spaces);
 }
