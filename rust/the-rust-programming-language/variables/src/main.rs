@@ -1,8 +1,5 @@
 fn main() {
-    const MAX_POINTS: u32 = 100_000;
-
-    let spaces = " ";
-    let spaces = spaces.len();
-
-    println!("{} {}", MAX_POINTS, spaces);
+    let x = 2.0; //f64
+    let y: f32 = 3.0; //f32
+    println!("{} {}", x, y);
 }
